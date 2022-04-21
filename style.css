@@ -63,6 +63,7 @@ h3 {
   padding: 20px;
 }
 .cover {
+  margin: auto;
   padding: 20px;
   display: flex;
   justify-content: center;
