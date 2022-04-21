@@ -15,6 +15,7 @@ h1 {
   overflow: hidden;
   background-color: #fdf5df;
   margin: auto;
+  width: 15%;
 }
 .topnav a {
   float: left;
