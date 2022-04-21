@@ -67,3 +67,10 @@ h3 {
   display: flex;
   justify-content: center;
 }
+.tag {
+  font-style: italic;
+  color: #f92c85;
+}
+p {
+  color: #205457
+}
