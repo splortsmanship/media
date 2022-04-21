@@ -14,6 +14,7 @@ h3 {
 .topnav {
   overflow: hidden;
   background-color: #fdf5df;
+  float: center;
 }
 .topnav a {
   float: left;
@@ -45,8 +46,4 @@ h3 {
     border: 1px solid #ccc;
   }
 }
-.box {
-  margin: auto;
-  width: 80%;
-  padding: 10px;
-}
+
