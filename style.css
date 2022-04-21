@@ -7,7 +7,7 @@ h1 {
   color: #205457;
   text-align: center;
 }
-h3 {
+.tagpage {
   color: #f92c85;
   text-align: center;
 }
@@ -46,4 +46,21 @@ h3 {
     border: 1px solid #ccc;
   }
 }
-
+.card {
+  padding: 20px;
+  margin-top: 20px;
+}
+h3 {
+  color: #205457;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+}
+.cover {
+  text-align: center;
+}
