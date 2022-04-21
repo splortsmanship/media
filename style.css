@@ -14,7 +14,7 @@ h3 {
 .topnav {
   overflow: hidden;
   background-color: #fdf5df;
-  float: center;
+  margin: auto;
 }
 .topnav a {
   float: left;
