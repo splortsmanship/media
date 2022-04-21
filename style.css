@@ -59,9 +59,11 @@ h3 {
   grid-template-columns: 25% 75%;
   padding: 10px;
 }
-.grid-item {
+.info {
   padding: 20px;
 }
 .cover {
-  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 }
