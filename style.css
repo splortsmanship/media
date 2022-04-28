@@ -2,6 +2,7 @@ body {
   font-family: Arial;
   padding: 20px;
   background-color: #D2FDFF;
+  text-align: center;
 }
 h1 {
   color: #2B2C28;
@@ -13,6 +14,7 @@ p {
   width: 75%;
   background-color: #38BDFF;
   border-radius: 10px;
+  text-align: center;
 }
 h3 {
   text-decoration: underline;
