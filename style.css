@@ -1,7 +1,7 @@
 body {
   font-family: Arial;
   padding: 20px;
-  background-color: #D2FDFF;
+  background-color: #3ABEFF;
   text-align: center;
 }
 h1 {
@@ -11,11 +11,12 @@ p {
   color: #000000;
 }
 .card {
-  width: 75%;
-  background-color: #38BDFF;
+  width: 50%;
+  background-color: #D2FDFF;
   border-radius: 10px;
   text-align: center;
   margin: auto;
+  padding: 20px;
 }
 h3 {
   text-decoration: underline;
