@@ -20,7 +20,7 @@ p {
 }
 .list {
   margin: auto;
-  width: 10%;
+  width: 20%;
 }
 h3 {
   text-decoration: underline;
@@ -33,5 +33,8 @@ h3 {
 .list a:hover {
   text-decoration: underline;
   color: #E7E247;
+}
+.list p {
+  font-weight: bold;
 }
 other colors: #3ABEFF #26FFE6
