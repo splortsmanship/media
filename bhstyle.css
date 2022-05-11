@@ -19,6 +19,7 @@ p {
 .info {
   width: 75%;
   text-align: center;
+  margin: auto;
 }
 
 <!-- image gallery -->
