@@ -25,5 +25,105 @@
         FFXIV WoL introject-turned-host, holds a lot of ADHD symptoms. Has the memory of a goldfish: not as bad as most people think, but still not great. He's almost always around in some capacity, and asking for him specifically when he's not a designated fronter is totally fine.
       </p>
     </div>
+    
+    <div class="container">
+      
+      <div class="mySlides">
+        <div class="numbertext">1 / 6 </div>
+        <img src="images/10D20F01-8666-4BD3-93B8-D22CEAE789F6.png" style="width: 100%">
+      </div>
+      
+      <div class="mySlides">
+        <div class="numbertext">2 / 6</div>
+        <img src="images/685CBA20-C3C4-4BFB-B17B-A421C574D05D.jpeg" style="width: 100%">
+      </div>
+      
+      <div class="mySlides">
+        <div class="numbertext">3 / 6</div>
+        <img src="images/771BDD54-A59D-46FF-9DAB-08CE6A4AE9FB.png" style="width: 100%">
+      </div>
+      
+      <div class="mySlides">
+        <div class="numbertext">4 / 6</div>
+        <img src="images/92B0E6B5-F036-4231-9A78-C0756E524D74.jpeg" style="width: 100%">
+      </div>
+      
+      <div class="mySlides">
+        <div class="numbertext">5 / 6</div>
+        <img src="images/9F815C47-0FA5-4D8B-95AE-DEE9911A967D.png" style="width: 100%">
+      </div>
+      
+      <div class="mySlides">
+        <div class="numbertext">6 / 6</div>
+        <img src="images/A788551B-59AE-4231-B8DE-4CF743ED32B1.png" style="width: 100%">
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+      
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+      
+      <div class="row">
+        
+        <div class="column">
+          <img class="demo cursor" src="images/10D20F01-8666-4BD3-93B8-D22CEAE789F6.png" style="width: 100%" onclick="currentSlide(1)" alt="Art by @ChezForShire">
+        </div>
+        
+        <div class="column">
+          <img class="demo cursor" src="images/685CBA20-C3C4-4BFB-B17B-A421C574D05D.jpeg" style="width: 100%" onclick="currentSlide(2)" alt="Art by @Maxx_Mysk">
+        </div>
+        
+        <div class="column">
+          <img class="demo cursor" src="images/771BDD54-A59D-46FF-9DAB-08CE6A4AE9FB.png" style="width: 100%" onclick="currentSlide(3)" alt="Art by @MackinItHappen">
+        </div>
+        
+        <div class="column">
+          <img class="demo cursor" src="images/92B0E6B5-F036-4231-9A78-C0756E524D74.jpeg" style="width: 100%" onclick="currentSlide(4)" alt="Art by @alienmandy_">
+        </div>
+        
+        <div class="column">
+          <img class="demo cursor" src="images/9F815C47-0FA5-4D8B-95AE-DEE9911A967D.png" style="width: 100%" onclick="currentSlide(5)" alt="Art by @MackinItHappen">
+        </div>
+        
+        <div class="column">
+          <img class="demo cursor" src="images/A788551B-59AE-4231-B8DE-4CF743ED32B1.png" style="width: 100%" onclick="currentSlide(6)" alt="Art by @MackinItHappen">
+        </div>
+        
+      </div>
+      
+    </div>
+    
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides (n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("demo");
+        let captionText = document.getElementById("caption");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+      }
+    </script>
   </body>
 </html>
